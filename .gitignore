@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local LumiForge evidence and reports
+.lumiforge/
+**/.lumiforge/
+build-history/
+**/build-history/
+
+# Local Agent configuration and Skill runtime binding
+.claude/settings.local.json
+skills/**/runtime.json
+
+# Private or generated project material
+with ChatGPT.txt
+output/
+test_project/
+test_learning_report/
+test_learning_report.sh
+
+# Historical v0.1 notes kept locally, not part of the current public product
+FINAL_SUMMARY.md
+LEARNING_REPORT.md
+PHASE2_COMPLETION.md
+PHASE2_FEATURES.md
+PHASE2_PLAN.md
+SUMMARY.md
+requirements-ai.txt
+
+# macOS
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/

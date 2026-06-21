@@ -1,0 +1,4 @@
+interface:
+  display_name: "LumiForge Build Review"
+  short_description: "Turn agent conversations into evidence-backed build records"
+  default_prompt: "Use $lumiforge-review to create an evidence-backed record of the current project conversation."
